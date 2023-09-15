@@ -1,0 +1,66 @@
+/*NAVBAR*/
+.navbar{
+    background-color: #2d313f;
+}
+
+.navbar .logo img{
+    width: 220px;
+}
+
+.navbar .logo span{
+    color: #aef1ff;
+}
+
+.navbar .navbar-toggler{
+    border: none;
+}
+
+.navbar .navbar-toggler-icon{
+    background-image: url('../assets/icon-menu.png');
+}
+
+.navbar .navbar-nav{
+    margin-top: 30px
+}
+
+.navbar .navbar-nav .nav-item{
+    padding: 20px;
+    text-align: center;
+    border-top: 0.5px solid #87878769;
+}
+
+
+
+.navbar .navbar-collapse{
+    justify-content: flex-end;
+}
+
+@media (min-width: 1024px) {
+    .navbar{
+        padding: 0;
+    }
+    
+    .navbar .navbar-nav{
+        margin-top: 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .navbar .navbar-nav .nav-item{
+      border: none;
+      transition: 1s;
+    }
+
+    .navbar .navbar-nav .nav-item:hover{
+        background-color: #61698e;
+      }
+
+    .navbar .navbar-nav .contato-geral{
+        background-color: rgb(61, 67, 88);
+      }
+
+    .navbar .navbar-nav .nav-item .contato{
+        color: white;
+    }
+  }
