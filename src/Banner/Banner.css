@@ -1,0 +1,77 @@
+p{
+    margin-bottom: 0;
+}
+
+.Banner{
+    background-color: #292c36;
+    padding: 15% 0;
+}
+
+.banner-content .bg-banner{
+    background-color: #2b2f3b;
+}
+
+.banner-content .numeral{
+    font-size: 13px;
+    color: #515a78;
+}
+
+.banner-content .cor1{
+    color: #848c97;
+}
+
+.banner-content .cor2{
+    color: #aef1ff;
+}
+
+.banner-content .cor3{
+    color: #e8a3ec;
+}
+
+.banner-content .cor4{
+    color: #ffd79c;
+}
+
+.banner-content .cor5{
+    color: #FFF
+}
+
+.banner-content  .linhas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.banner-content .linhas .coluna1{
+    padding-right: 5%;
+}
+
+.banner-content .bg-banner .easter-egg{
+    display: flex;
+    flex-direction: row;
+    color: #2b2f3b;
+}
+
+@media (min-width: 768px){
+    .Banner .banner-content .linhas{
+        padding-left: 10%;
+    }
+    .Banner{
+        font-size: 170%;
+    }
+}
+
+@media (min-width: 1440px){
+    .Banner .banner-content .linhas{
+        padding-left: 15%;
+    }
+    .Banner{
+        font-size: 200%;
+    }
+}
+
+@media (min-width: 1920px){
+    .Banner{
+        font-size: 300%;
+    }
+}
