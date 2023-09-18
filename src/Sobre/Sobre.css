@@ -1,0 +1,94 @@
+.Sobre{
+    background-color: #ffd79c;
+}
+
+.Sobre .img-sobre{
+    width: 100%;
+}
+
+.Sobre .ricardo{
+    margin-top: -60px;
+}
+
+.Sobre .text-sobre{
+    padding: 30px;
+}
+
+.Sobre .title-sobre{
+    color: #2a3d7f;
+    background-color: #f8d29a;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.Sobre .title-sobre h3{
+    font-size: 15px;
+}
+
+.Sobre .subtitle{
+    margin-top: 30px;
+    color: #2a3d7f;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.Sobre .text-sobre .text{
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+.Sobre .text-sobre .text p{
+    margin-bottom: 20px;
+}
+
+.Sobre .text-sobre .curriculo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.Sobre .text-sobre .curriculo a{
+    text-decoration: none;
+    color: white;
+}
+
+.Sobre .text-sobre .curriculo h1{
+    background-color: #e7618b;
+    padding: 30px;
+    transition: background-color 0.3s;
+}
+
+.Sobre .text-sobre .curriculo h1:hover{
+    background-color: #c61950;
+}
+
+@media (min-width: 1024px) {
+    .Sobre .text-sobre .curriculo{
+        align-items: baseline;
+    }
+
+    .Sobre .imgs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .Sobre .text-sobre{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1440px) {
+    .Sobre .ricardo{
+        margin-top: -150px;
+    }
+    .Sobre .img-sobre{
+        width: 100%;
+    }
+}
+

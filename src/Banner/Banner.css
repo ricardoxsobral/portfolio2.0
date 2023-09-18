@@ -4,7 +4,8 @@ p{
 
 .Banner{
     background-color: #292c36;
-    padding: 15% 0;
+    padding: 40% 0 25% 0;
+    font-size: 14px;
 }
 
 .banner-content .bg-banner{
@@ -14,26 +15,6 @@ p{
 .banner-content .numeral{
     font-size: 13px;
     color: #515a78;
-}
-
-.banner-content .cor1{
-    color: #848c97;
-}
-
-.banner-content .cor2{
-    color: #aef1ff;
-}
-
-.banner-content .cor3{
-    color: #e8a3ec;
-}
-
-.banner-content .cor4{
-    color: #ffd79c;
-}
-
-.banner-content .cor5{
-    color: #FFF
 }
 
 .banner-content  .linhas{
@@ -52,11 +33,18 @@ p{
     color: #2b2f3b;
 }
 
+@media (min-width: 425px){
+    .Banner{
+        font-size: 100%;
+    }
+}
+
 @media (min-width: 768px){
     .Banner .banner-content .linhas{
         padding-left: 10%;
     }
     .Banner{
+        padding: 30% 0 20% 0;
         font-size: 170%;
     }
 }
@@ -66,6 +54,7 @@ p{
         padding-left: 15%;
     }
     .Banner{
+        padding: 17% 0 13% 0;
         font-size: 200%;
     }
 }

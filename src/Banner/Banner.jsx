@@ -3,7 +3,7 @@ import "./Banner.css";
 function Banner() {
   return (
     <>
-      <div className="Banner">
+      <div className="Banner" id="Banner">
         <div className="container-fluid">
             <div className="banner-content">
             <div className="row bg-banner">
@@ -15,7 +15,7 @@ function Banner() {
             <div className="row">
                 <div className="linhas">
                     <div className="coluna1"><p className="numeral">2</p></div>
-                    <div className="coluna2"><p className="cor2">Eu sou Ricardo <span className="cor3">=</span> <span className="cor5">&lt;</span><span className="cor4">desenvolvedor web/</span><span className="cor5">&gt;;</span></p></div>
+                    <div className="coluna2"><p className="cor2">Eu sou Ricardo <span className="cor3">=</span> <span className="cor5">&lt;</span><span className="cor4">desenvolvedor web</span><span className="cor5">/&gt;;</span></p></div>
                 </div>
             </div>
             <div className="row bg-banner">
