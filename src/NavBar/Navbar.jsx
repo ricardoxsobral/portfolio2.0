@@ -79,9 +79,9 @@ function Navbar() {
                     className="nav-link"
                     onClick={() => handleItemClick("Carreira")}
                     style={getItemStyle("Carreira")}
-                    href="#"
+                    href="#Skills"
                   >
-                    Carreira
+                    Habilidades
                   </a>
                 </li>
                 <li className="nav-item" style={getItemStyle("Projetos")}>

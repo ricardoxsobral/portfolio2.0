@@ -2,7 +2,8 @@ import './App.css'
 import Navbar from './NavBar/Navbar'
 import Banner from './Banner/Banner'
 import Sobre from './Sobre/Sobre'
-import Carreira from './Carreira/Carreira'
+import Skills from './Skills/Skills'
+
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <Navbar />
       <Banner />
       <Sobre />
-      <Carreira />
+      <Skills />
     </>
   )
 }
