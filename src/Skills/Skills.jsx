@@ -19,12 +19,12 @@ function Skills() {
                 <h3>// HABILIDADES</h3>
               </div>
               <div className="subtitle">
-                <h3>
+                <h1>
                   Aqui estão algumas{" "}
                   <span className="cor6">linguagens e frameworks</span> que eu
                   possuo{" "}
                   <span className="cor7">conhecimento e experiência</span>...
-                </h3>
+                </h1>
               </div>
             </div>
             <div className="col-sm-12 col-md-6 col-lg-3">

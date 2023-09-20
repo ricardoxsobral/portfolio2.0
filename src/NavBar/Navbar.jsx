@@ -89,7 +89,7 @@ function Navbar() {
                     className="nav-link"
                     onClick={() => handleItemClick("Projetos")}
                     style={getItemStyle("Projetos")}
-                    href="#"
+                    href="#Projects"
                   >
                     Projetos
                   </a>

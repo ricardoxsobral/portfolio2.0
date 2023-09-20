@@ -1,0 +1,92 @@
+.Projects{
+    background-color: #edeff3;
+}
+
+.Projects .text-projects{
+    padding: 30px;
+}
+
+.Projects .text-projects .title-projects{
+    color: #4e6189;
+    background-color: #e7eaee;
+    width: 160px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.Projects .text-projects .title-projects h3{
+    font-size: 14px;
+}
+
+.Projects .text-projects .subtitle{
+    margin-top: 30px;
+    color: #2a3d7f;
+    margin-top: 30px;
+}
+
+.Projects .subtitle h1{
+    font-weight: bold;
+}
+
+.swiper {
+    width: 100%;
+    padding: 60px 0 120px 0 !important;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 80% !important;
+  }
+  
+  .swiper-slide img {
+    width: 100%;
+  }
+
+  .swiper-slide .infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .swiper-slide .infos h4 {
+    color: #4e6189;
+    background-color: #e7eaee;
+    width: 160px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    font-size: 14px;
+  }
+
+  .swiper-slide .infos .btns{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+
+  .swiper-slide .infos .btns h5{
+    background-color: #2a3d7f;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+  }
+
+  .swiper-slide .infos .btns h5:hover{
+    background-color: #e7618b;
+  }
+
+  .swiper-pagination{
+    margin-bottom: 60px;
+  }
+
+  @media (min-width: 1440px) {
+    .swiper-slide {
+        width: 60% !important;
+      }
+    
+}
