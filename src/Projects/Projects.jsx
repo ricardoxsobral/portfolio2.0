@@ -47,7 +47,6 @@ function Projects() {
             stretch: 0,
             depth: 100,
             modifier: 1,
-            slideShadows: true,
           }}
           pagination={true}
           modules={[EffectCoverflow, Pagination]}

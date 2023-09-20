@@ -1,5 +1,9 @@
 .Projects{
-    background-color: #edeff3;
+    background-image: url('../assets/fundo-teste.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
 }
 
 .Projects .text-projects{
@@ -32,6 +36,7 @@
 .swiper {
     width: 100%;
     padding: 60px 0 120px 0 !important;
+    position: initial !important;
   }
   
   .swiper-slide {
@@ -86,7 +91,7 @@
 
   @media (min-width: 1440px) {
     .swiper-slide {
-        width: 60% !important;
+        width: 50% !important;
       }
     
 }

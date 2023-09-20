@@ -77,7 +77,6 @@ function Skills() {
             </div>
           </div>
         </div>
-        <hr className="cor8"></hr>
       </div>
     </>
   );
