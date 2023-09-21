@@ -6,9 +6,19 @@
     background-size: cover;
 }
 
+.teste{
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.teste.fade-in{
+    opacity: 1;
+}
+
 .Skills .text-skills{
     padding: 30px;
 }
+
 
 .Skills .text-skills .title-skills{
     color: #4e6189;

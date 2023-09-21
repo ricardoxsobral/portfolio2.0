@@ -1,10 +1,20 @@
 .Footer{
     background-color: #292c36;
-    padding: 80px 0;
+    padding-top: 80px;
+}
+
+.Footer .up{
+    padding: 30px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.Footer .up.fade-in{
+    opacity: 1;
 }
 
 .Footer .footer-content{
-    padding: 30px;
+    margin-bottom: 70px;
 }
 
 .Footer .footer-content form{
@@ -50,7 +60,22 @@
     align-items: center;
 }
 
+.Footer .footer-content .topics .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.Footer .footer-content .social-content .midias-sociais{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.Footer .social-content .content .icon-social img{
+    width: 40px;
+}
 
 .Footer .footer-title{
     color: #4e6189;
@@ -61,10 +86,38 @@
     margin-top: 40px;
 }
 
+.Footer .footer-copy .test{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Footer .footer-copy .test .to-up img{
+    width: 20px;
+}
+
+.Footer .footer-copy .test h4{
+    font-size: 15px;
+    text-align: center;
+    margin: 30px 0;
+}
+
 .Footer .formulario form{
     display: flex;
     flex-direction: column;
     align-items: baseline;
+}
+
+.local-content .cor2{
+    text-align: center;
+}
+
+@media (min-width: 1200px) {
+    .Footer .footer-copy .test{
+        flex-direction: row;
+        align-items: baseline;
+    }
 }
 
 @media (min-width: 1440px) {

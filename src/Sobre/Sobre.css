@@ -2,6 +2,15 @@
     background-color: #ffd79c;
 }
 
+.teste{
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.teste.fade-in{
+    opacity: 1;
+}
+
 .Sobre .img-sobre{
     width: 100%;
 }

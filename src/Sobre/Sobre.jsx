@@ -1,14 +1,35 @@
 import "./Sobre.css";
+import { useEffect, useState } from "react";
 import sobre from "../assets/sobre.png";
 import ricardo from "../assets/EuRicardo.png";
-import resume from "../assets/Curriculo.pdf"
+import resume from "../assets/Curriculo.pdf";
 
 function Sobre() {
+  const [isVisible, setIsVisible] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
+      const element = document.getElementById("Sobre-scroll");
+      if (element) {
+        const elementTop = element.getBoundingClientRect().top;
+        setIsVisible(elementTop < window.innerHeight);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    handleScroll();
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <>
       <div className="Sobre" id="Sobre">
         <div className="container">
-          <div className="row">
+          <div className={`row teste ${isVisible ? "fade-in" : ""}`}>
             <div className="col-sm-12 col-md-12 col-lg-6 imgs">
               <img src={sobre} className="img-sobre"></img>
               <img src={ricardo} className="img-sobre ricardo"></img>
@@ -27,7 +48,7 @@ function Sobre() {
                 </h3>
               </div>
               <div className="text cor8">
-                <p>
+                <p id="Sobre-scroll">
                   Olá, eu sou Ricardo, um jovem de 19 anos apaixonado por
                   tecnologia em busca de me tornar um desenvolvedor web
                   altamente qualificado. Comecei minha jornada adquirindo

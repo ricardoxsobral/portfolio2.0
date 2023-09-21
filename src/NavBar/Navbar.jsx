@@ -94,11 +94,12 @@ function Navbar() {
                     Projetos
                   </a>
                 </li>
-                <li className="nav-item contato-geral">
+                <li className="nav-item" style={getItemStyle("Contato")}>
                   <a
-                    className="nav-link contato"
-                    target="_blank"
-                    href="https://contate.me/ricardo-sobral"
+                    className="nav-link"
+                    onClick={() => handleItemClick("Contato")}
+                    style={getItemStyle("Contato")}
+                    href="#Contato"
                   >
                     Contato
                   </a>

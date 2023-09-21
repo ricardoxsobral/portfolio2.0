@@ -1,97 +1,117 @@
-.Projects{
-    background-image: url('../assets/fundo-teste.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 50px;
+.Projects {
+  background-image: url("../assets/fundo-teste.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
 }
 
-.Projects .text-projects{
-    padding: 30px;
+.teste{
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
 }
 
-.Projects .text-projects .title-projects{
-    color: #4e6189;
-    background-color: #e7eaee;
-    width: 160px;
-    text-align: center;
-    padding: 10px;
-    margin-top: 40px;
+.teste.fade-in{
+  opacity: 1;
 }
 
-.Projects .text-projects .title-projects h3{
-    font-size: 14px;
+
+.Projects .text-projects {
+  padding: 30px;
 }
 
-.Projects .text-projects .subtitle{
-    margin-top: 30px;
-    color: #2a3d7f;
-    margin-top: 30px;
+.Projects .text-projects .title-projects {
+  color: #4e6189;
+  background-color: #e7eaee;
+  width: 160px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
 }
 
-.Projects .subtitle h1{
-    font-weight: bold;
+.Projects .text-projects .title-projects h3 {
+  font-size: 14px;
+}
+
+.Projects .text-projects .subtitle {
+  margin-top: 30px;
+  color: #2a3d7f;
+  margin-top: 30px;
+}
+
+.Projects .subtitle h1 {
+  font-weight: bold;
 }
 
 .swiper {
-    width: 100%;
-    padding: 60px 0 120px 0 !important;
-    position: initial !important;
-  }
-  
+  width: 100%;
+  padding: 60px 0 120px 0 !important;
+  position: initial !important;
+}
+
+.swiper .swiper-wrapper{
+  position: initial;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 80% !important;
+  padding: 0 5% !important;
+}
+
+.swiper-slide img {
+  width: 100%;
+  transition: 1s;
+}
+
+.swiper-slide img:hover{
+  transform: scale(1.1);
+}
+
+.swiper-slide .infos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.swiper-slide .infos h4 {
+  color: #4e6189;
+  background-color: #e7eaee;
+  width: 160px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+.swiper-slide .infos .btns {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.swiper-slide .infos .btns h5 {
+  background-color: #2a3d7f;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.swiper-slide .infos .btns h5:hover {
+  background-color: #e7618b;
+}
+
+.swiper-pagination {
+  margin-bottom: 60px;
+  position: initial !important;
+}
+
+@media (min-width: 1440px) {
   .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 80% !important;
+    width: 50% !important;
   }
-  
-  .swiper-slide img {
-    width: 100%;
-  }
-
-  .swiper-slide .infos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .swiper-slide .infos h4 {
-    color: #4e6189;
-    background-color: #e7eaee;
-    width: 160px;
-    text-align: center;
-    padding: 10px;
-    margin-top: 40px;
-    font-size: 14px;
-  }
-
-  .swiper-slide .infos .btns{
-    display: flex;
-    flex-direction: row;
-    width: 200px;
-    justify-content: space-around;
-    margin-top: 10px;
-  }
-
-  .swiper-slide .infos .btns h5{
-    background-color: #2a3d7f;
-    padding: 10px;
-    font-size: 14px;
-    border-radius: 10px;
-    transition: background-color 0.3s;
-  }
-
-  .swiper-slide .infos .btns h5:hover{
-    background-color: #e7618b;
-  }
-
-  .swiper-pagination{
-    margin-bottom: 60px;
-  }
-
-  @media (min-width: 1440px) {
-    .swiper-slide {
-        width: 50% !important;
-      }
-    
 }

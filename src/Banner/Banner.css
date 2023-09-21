@@ -2,6 +2,19 @@ p{
     margin-bottom: 0;
 }
 
+.slide-right {
+    animation: slideRight 1.1s ease;
+  }
+  
+  @keyframes slideRight {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
 .Banner{
     background-color: #292c36;
     padding: 40% 0 25% 0;

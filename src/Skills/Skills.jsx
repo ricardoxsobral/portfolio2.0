@@ -1,4 +1,5 @@
 import "./Skills.css";
+import { useEffect, useState } from "react";
 import html from "../assets/html (1).png";
 import css from "../assets/css (1).png";
 import js from "../assets/js (2).png";
@@ -9,11 +10,30 @@ import php from "../assets/php.png";
 import sql from "../assets/sql.png";
 
 function Skills() {
+  const [isVisible, setIsVisible] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
+      const element = document.getElementById("Skills-scroll");
+      if (element) {
+        const elementTop = element.getBoundingClientRect().top;
+        setIsVisible(elementTop < window.innerHeight);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    handleScroll();
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <>
       <div className="Skills" id="Skills">
         <div className="container">
-          <div className="row ">
+          <div className={`row teste ${isVisible ? "fade-in" : ""}`}>
             <div className="col-12 text-skills">
               <div className="title-skills">
                 <h3>// HABILIDADES</h3>
@@ -29,11 +49,11 @@ function Skills() {
             </div>
             <div className="col-sm-12 col-md-6 col-lg-3">
               <div className="imgs-skills">
-                <div className="html imgs">
+                <div className="html imgs" >
                   <img src={html}></img>
                   <p className="cor8">HTML</p>
                 </div>
-                <div className="react imgs">
+                <div className="react imgs" id="Skills-scroll">
                   <img src={react}></img>
                   <p className="cor8">React</p>
                 </div>
