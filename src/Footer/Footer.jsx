@@ -137,7 +137,7 @@ function Footer() {
 
               <input
                 className="input"
-                type="number"
+                type="tel"
                 placeholder="Digite seu telefone de contato"
                 onChange={(e) => setTel(e.target.value)}
                 value={tel}
@@ -210,9 +210,6 @@ function Footer() {
                   <h5>Localização</h5>
                 </div>
                 <div className="content local-content">
-                  <p className="cor2">
-                    <span className="cor4">Av. Manoel da Nóbrega</span>, 332
-                  </p>
                   <p className="cor2">
                     São Vicente <span className="cor3">-</span>{" "}
                     <span className="cor4">SP</span>

@@ -2,7 +2,8 @@ import "./Sobre.css";
 import { useEffect, useState } from "react";
 import sobre from "../assets/sobre.png";
 import ricardo from "../assets/EuRicardo.png";
-import resume from "../assets/Curriculo.pdf";
+import ricardo2 from "../assets/EuRicardo2.png";
+import resume from "../assets/resume.pdf";
 
 function Sobre() {
   const [isVisible, setIsVisible] = useState(false);
@@ -32,7 +33,7 @@ function Sobre() {
           <div className={`row teste ${isVisible ? "fade-in" : ""}`}>
             <div className="col-sm-12 col-md-12 col-lg-6 imgs">
               <img src={sobre} className="img-sobre"></img>
-              <img src={ricardo} className="img-sobre ricardo"></img>
+              <img src={ricardo2} className="img-sobre ricardo"></img>
             </div>
             <div className="col-sm-12 col-md-12 col-lg-6 text-sobre">
               <div className="title-sobre">

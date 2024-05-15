@@ -25,6 +25,10 @@ p{
     background-color: #2b2f3b;
 }
 
+.banner-content .easter{
+    height: 40px;
+}
+
 .banner-content .numeral{
     font-size: 13px;
     color: #515a78;
@@ -59,6 +63,12 @@ p{
     .Banner{
         padding: 30% 0 20% 0;
         font-size: 170%;
+    }
+}
+
+@media (min-width: 1365px){
+    .Banner{
+        padding: 15% 0 10% 0;
     }
 }
 

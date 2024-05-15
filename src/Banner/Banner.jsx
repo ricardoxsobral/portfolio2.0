@@ -74,15 +74,7 @@ function Banner() {
                 </div>
               </div>
             </div>
-            <div className="row bg-banner">
-              <div className="easter-egg">
-                <div className="coluna1">
-                  <p className="">5</p>
-                </div>
-                <div className="col-10">
-                  <p>Camilla, eu te amo!</p>
-                </div>
-              </div>
+            <div className="row bg-banner easter">
             </div>
           </div>
         </div>

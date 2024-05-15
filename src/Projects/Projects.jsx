@@ -13,6 +13,9 @@ import novomercado from "../assets/novo-mercado.png";
 import tempo from "../assets/tempo.png";
 import liceu from "../assets/liceu.png";
 import ricardo from "../assets/ricardo.png";
+import globalads from "../assets/globalads.png";
+import juliana from "../assets/juliana.png";
+import chapet from "../assets/chapet.png";
 
 import { EffectCoverflow, Pagination } from "swiper/modules";
 
@@ -74,13 +77,70 @@ function Projects() {
           >
             <SwiperSlide>
               <a
+                href="https://taori.com.br/cha-pet/"
+                target="_blank"
+              >
+                <img id="Projects-scroll" src={chapet} />
+              </a>
+              <div className="infos">
+                <h4 >Landing Page - Chá-Pet</h4>
+                <div className="btns">
+                  <a
+                    href="https://taori.com.br/cha-pet/"
+                    target="_blank"
+                  >
+                    <h5>Acessar</h5>
+                  </a>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <a
+                href="https://globalads.pro/"
+                target="_blank"
+              >
+                <img id="Projects-scroll" src={globalads} />
+              </a>
+              <div className="infos">
+                <h4>Global ADS</h4>
+                <div className="btns">
+                  <a
+                    href="https://globalads.pro/"
+                    target="_blank"
+                  >
+                    <h5>Acessar</h5>
+                  </a>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <a
+                href="https://julianafenix.com/"
+                target="_blank"
+              >
+                <img id="Projects-scroll" src={juliana} />
+              </a>
+              <div className="infos">
+                <h4>Site pessoal - Juliana Fênix</h4>
+                <div className="btns">
+                  <a
+                    href="https://julianafenix.com/"
+                    target="_blank"
+                  >
+                    <h5>Acessar</h5>
+                  </a>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <a
                 href="https://liceusaopaulo.com.br/concurso-de-bolsas-2024-cadastro/"
                 target="_blank"
               >
-                <img src={liceu} />
+                <img id="Projects-scroll" src={liceu} />
               </a>
               <div className="infos">
-                <h4 id="Projects-scroll">Concurso de Bolsas</h4>
+                <h4>Concurso de Bolsas</h4>
                 <div className="btns">
                   <a
                     href="https://liceusaopaulo.com.br/concurso-de-bolsas-2024-cadastro/"
@@ -92,13 +152,13 @@ function Projects() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <a href="http://ricardoxsobral.com.br/" target="_blank">
-                <img src={ricardo} />
+              <a href="https://ricardoxsobral.com.br/projetos/portfolio1/" target="_blank">
+                <img id="Projects-scroll" src={ricardo} />
               </a>
               <div className="infos">
                 <h4>1º Portfólio</h4>
                 <div className="btns">
-                  <a href="http://ricardoxsobral.com.br/" target="_blank">
+                  <a href="https://ricardoxsobral.com.br/projetos/portfolio1/" target="_blank">
                     <h5>Acessar</h5>
                   </a>
                   <a
@@ -112,7 +172,7 @@ function Projects() {
             </SwiperSlide>
             <SwiperSlide>
               <a href="https://www.advtavares.com.br/" target="_blank">
-                <img src={adv} />
+                <img id="Projects-scroll" src={adv} />
               </a>
               <div className="infos">
                 <h4>MPT ADVOCACIA</h4>
@@ -125,7 +185,7 @@ function Projects() {
             </SwiperSlide>
             <SwiperSlide>
               <a href="http://programafazbem.tv.br/" target="_blank">
-                <img src={fazbem} />
+                <img id="Projects-scroll" src={fazbem} />
               </a>
               <div className="infos">
                 <h4>Programa Faz Bem</h4>
@@ -141,7 +201,7 @@ function Projects() {
                 href="https://www.ricardoxsobral.com.br/projetos/DOA/"
                 target="_blank"
               >
-                <img src={doa} />
+                <img id="Projects-scroll" src={doa} />
               </a>
               <div className="infos">
                 <h4>DOA</h4>
@@ -166,7 +226,7 @@ function Projects() {
                 href="https://ricardoxsobral.com.br/projetos/novo-mercado/index.php"
                 target="_blank"
               >
-                <img src={novomercado} />
+                <img id="Projects-scroll" src={novomercado} />
               </a>
               <div className="infos">
                 <h4>NOVO MERCADO</h4>
@@ -191,7 +251,7 @@ function Projects() {
                 href="https://ricardoxsobral.com.br/projetos/weather-api/"
                 target="_blank"
               >
-                <img src={tempo} />
+                <img id="Projects-scroll" src={tempo} />
               </a>
               <div className="infos">
                 <h4>Weather API</h4>
