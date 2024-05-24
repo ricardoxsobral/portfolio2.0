@@ -16,6 +16,7 @@ import ricardo from "../assets/ricardo.png";
 import globalads from "../assets/globalads.png";
 import juliana from "../assets/juliana.png";
 import chapet from "../assets/chapet.png";
+import secret from "../assets/secret-word.png";
 
 import { EffectCoverflow, Pagination } from "swiper/modules";
 
@@ -75,6 +76,25 @@ function Projects() {
             modules={[EffectCoverflow, Pagination]}
             className="mySwiper"
           >
+            <SwiperSlide>
+              <a href="https://ricardoxsobral.com.br/projetos/secret-word/" target="_blank">
+                <img id="Projects-scroll" src={secret} />
+              </a>
+              <div className="infos">
+                <h4>Secrete Word</h4>
+                <div className="btns">
+                  <a href="https://ricardoxsobral.com.br/projetos/secret-word/" target="_blank">
+                    <h5>Acessar</h5>
+                  </a>
+                  <a
+                    href="https://github.com/ricardoxsobral/secret-word"
+                    target="_blank"
+                  >
+                    <h5>GitHub</h5>
+                  </a>
+                </div>
+              </div>
+            </SwiperSlide>
             <SwiperSlide>
               <a
                 href="https://taori.com.br/cha-pet/"
@@ -214,31 +234,6 @@ function Projects() {
                   </a>
                   <a
                     href="https://github.com/ricardoxsobral/TCC-DOA"
-                    target="_blank"
-                  >
-                    <h5>GitHub</h5>
-                  </a>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <a
-                href="https://ricardoxsobral.com.br/projetos/novo-mercado/index.php"
-                target="_blank"
-              >
-                <img id="Projects-scroll" src={novomercado} />
-              </a>
-              <div className="infos">
-                <h4>NOVO MERCADO</h4>
-                <div className="btns">
-                  <a
-                    href="https://ricardoxsobral.com.br/projetos/novo-mercado/index.php"
-                    target="_blank"
-                  >
-                    <h5>Acessar</h5>
-                  </a>
-                  <a
-                    href="https://github.com/ricardoxsobral/o_novo_mercado"
                     target="_blank"
                   >
                     <h5>GitHub</h5>
