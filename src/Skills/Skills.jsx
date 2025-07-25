@@ -4,6 +4,8 @@ import html from "../assets/html (1).png";
 import css from "../assets/css (1).png";
 import js from "../assets/js (2).png";
 import boot from "../assets/boot.png";
+import typescript from "../assets/typescript.png";
+import vtex from "../assets/vtex.png";
 import react from "../assets/react.png";
 import word from "../assets/wordpress.png";
 import php from "../assets/php.png";
@@ -85,13 +87,13 @@ function Skills() {
             </div>
             <div className="col-sm-12 col-md-6 col-lg-3">
               <div className="imgs-skills">
-              <div className="boot imgs">
-                  <img src={boot}></img>
-                  <p className="cor8">BootsStrap</p>
+              <div className="typescript imgs">
+                  <img src={typescript}></img>
+                  <p className="cor8">TypeScript</p>
                 </div>
-                <div className="php imgs">
-                  <img src={php}></img>
-                  <p className="cor8">PHP</p>
+                <div className="vtex imgs">
+                  <img src={vtex}></img>
+                  <p className="cor8">VTEX</p>
                 </div>
               </div>
             </div>
