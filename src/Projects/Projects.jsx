@@ -8,15 +8,13 @@ import "swiper/css/pagination";
 
 import adv from "../assets/adv.png";
 import doa from "../assets/doa.png";
-import fazbem from "../assets/fazbem.png";
-import novomercado from "../assets/novo-mercado.png";
 import tempo from "../assets/tempo.png";
 import liceu from "../assets/liceu.png";
-import ricardo from "../assets/ricardo.png";
 import globalads from "../assets/globalads.png";
 import juliana from "../assets/juliana.png";
 import chapet from "../assets/chapet.png";
 import secret from "../assets/secret-word.png";
+import mojh from "../assets/mojh.png";
 
 import { EffectCoverflow, Pagination } from "swiper/modules";
 
@@ -76,14 +74,27 @@ function Projects() {
             modules={[EffectCoverflow, Pagination]}
             className="mySwiper"
           >
+          <SwiperSlide>
+              <a href="https://mojh.com.br/" target="_blank">
+                <img id="Projects-scroll" src={mojh} />
+              </a>
+              <div className="infos">
+                <h4>Mojh Cosméticos</h4>
+                <div className="btns">
+                  <a href="https://mojh.com.br/" target="_blank">
+                    <h5>Acessar</h5>
+                  </a>
+                </div>
+              </div>
+            </SwiperSlide>
             <SwiperSlide>
-              <a href="https://ricardoxsobral.com.br/projetos/secret-word/" target="_blank">
+              <a href="https://secret-word-mauve-omega.vercel.app/" target="_blank">
                 <img id="Projects-scroll" src={secret} />
               </a>
               <div className="infos">
-                <h4>Secrete Word</h4>
+                <h4>Secret Word</h4>
                 <div className="btns">
-                  <a href="https://ricardoxsobral.com.br/projetos/secret-word/" target="_blank">
+                  <a href="https://secret-word-mauve-omega.vercel.app/" target="_blank">
                     <h5>Acessar</h5>
                   </a>
                   <a
@@ -172,25 +183,6 @@ function Projects() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <a href="https://ricardoxsobral.com.br/projetos/portfolio1/" target="_blank">
-                <img id="Projects-scroll" src={ricardo} />
-              </a>
-              <div className="infos">
-                <h4>1º Portfólio</h4>
-                <div className="btns">
-                  <a href="https://ricardoxsobral.com.br/projetos/portfolio1/" target="_blank">
-                    <h5>Acessar</h5>
-                  </a>
-                  <a
-                    href="https://github.com/ricardoxsobral/portfolio"
-                    target="_blank"
-                  >
-                    <h5>GitHub</h5>
-                  </a>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
               <a href="https://www.advtavares.com.br/" target="_blank">
                 <img id="Projects-scroll" src={adv} />
               </a>
@@ -204,46 +196,8 @@ function Projects() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <a href="http://programafazbem.tv.br/" target="_blank">
-                <img id="Projects-scroll" src={fazbem} />
-              </a>
-              <div className="infos">
-                <h4>Programa Faz Bem</h4>
-                <div className="btns">
-                  <a href="http://programafazbem.tv.br/" target="_blank">
-                    <h5>Acessar</h5>
-                  </a>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
               <a
-                href="https://www.ricardoxsobral.com.br/projetos/DOA/"
-                target="_blank"
-              >
-                <img id="Projects-scroll" src={doa} />
-              </a>
-              <div className="infos">
-                <h4>DOA</h4>
-                <div className="btns">
-                  <a
-                    href="https://www.ricardoxsobral.com.br/projetos/DOA/"
-                    target="_blank"
-                  >
-                    <h5>Acessar</h5>
-                  </a>
-                  <a
-                    href="https://github.com/ricardoxsobral/TCC-DOA"
-                    target="_blank"
-                  >
-                    <h5>GitHub</h5>
-                  </a>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <a
-                href="https://ricardoxsobral.com.br/projetos/weather-api/"
+                href="https://open-weather-api-murex.vercel.app/"
                 target="_blank"
               >
                 <img id="Projects-scroll" src={tempo} />
@@ -252,7 +206,7 @@ function Projects() {
                 <h4>Weather API</h4>
                 <div className="btns">
                   <a
-                    href="https://ricardoxsobral.com.br/projetos/weather-api/"
+                    href="https://open-weather-api-murex.vercel.app/"
                     target="_blank"
                   >
                     <h5>Acessar</h5>
