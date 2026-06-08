@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import sobre from "../assets/sobre.png";
 import ricardo from "../assets/EuRicardo.png";
 import ricardo2 from "../assets/EuRicardo2.png";
-import resume from "../assets/resume-ricardo.pdf";
+import resume from "../assets/ricardo-curriculoPTBR.pdf";
 
 function Sobre() {
   const [isVisible, setIsVisible] = useState(false);
